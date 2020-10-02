@@ -2335,3 +2335,17 @@ section[data-section="menu"] {
     max-width: 100%;
   }
 }
+
+/*!==============================
+ Fix for horizontal scroll appearing on small screens
+ */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
